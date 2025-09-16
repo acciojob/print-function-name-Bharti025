@@ -1,6 +1,6 @@
 //your JS code here. If required.
-function myFunction() {
-  alert(myFunction.name);
+function functionName() {
+  alert(arguments.callee.name);
 }
 
-myFunction(); // Output: myFunction
+functionName(); // Output: myFunction
